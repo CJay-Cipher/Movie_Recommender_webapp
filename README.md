@@ -50,7 +50,7 @@ If the web server was able to initialise successfully, the following message sho
     Network URL: http://192.168.43.41:8501
 ```
 
-You should also be automatically directed to the base page of your web app. This should look something like:
+You should also be automatically directed to the base page of your web app. The page should look like this:
 
 <img src="resources/imgs/app_homepage.png" alt="Home Page" width="1000px"/>
 
