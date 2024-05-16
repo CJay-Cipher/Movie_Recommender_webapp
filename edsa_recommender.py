@@ -2,7 +2,7 @@
 
     Streamlit webserver-based Recommender Engine.
 
-    Author: Explore Data Science Academy.
+    Author: Chijioke Nnabueze.
 
     Note:
     ---------------------------------------------------------------------
@@ -10,19 +10,7 @@
     located within the root of this repository for guidance on how to use
     this script correctly.
 
-    NB: !! Do not remove/modify the code delimited by dashes !!
-
-    This application is intended to be partly marked in an automated manner.
-    Altering delimited code may result in a mark of 0.
-    ---------------------------------------------------------------------
-
-    Description: This file is used to launch a minimal streamlit web
-	application. You are expected to extend certain aspects of this script
-    and its dependencies as part of your predict project.
-
-	For further help with the Streamlit framework, see:
-
-	https://docs.streamlit.io/en/latest/
+    NB: !! To prevent errors, do not remove/modify the code delimited by dashes !!
 
 """
 # Streamlit dependencies
