@@ -21,7 +21,6 @@ import re as reg
 
 # Data handling dependencies
 import pandas as pd
-import numpy as np
 
 # Custom Libraries
 from utils.data_loader import load_movie_titles
