@@ -15,7 +15,7 @@ faq = {
     "__Yes, the app is designed to be accessible across various devices, including smartphones, \
     tablets, and computers. You can seamlessly switch between devices and continue where you left off.__",
 
-    "Can I provide feedback or report issues?": 
-    "__Absolutely! We encourage users to provide feedback and report any issues they encounter. \
-    You can reach out to our support team through the app.__",
+    # "Can I provide feedback or report issues?": 
+    # "__Absolutely! We encourage users to provide feedback and report any issues they encounter. \
+    # You can reach out to our support team through the app.__",
 }

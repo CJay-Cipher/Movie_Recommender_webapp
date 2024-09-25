@@ -4,14 +4,14 @@
 
 Below is a high-level description of the contents within this repo:
 
-| File Name                             | Description                                                       |
-| :------------------------------------ | :---------------------------------------------------------------- |
-| `edsa_recommender.py`                 | Base Streamlit application definition.                            |
-| `recommenders/collaborative_based.py` | Simple implementation of collaborative filtering.                 |
-| `recommenders/content_based.py`       | Simple implementation of content-based filtering.                 |
-| `resources/data/`                     | Sample movie and rating data used to demonstrate app functioning. |
-| `resources/models/`                   | Folder to store model and data binaries if produced.              |
-| `utils/`                              | Folder to store additional helper functions for the Streamlit app |
+| File Name                             | Description                                                                                                                     |
+| :------------------------------------ | :------------------------------------------------------------------------------------------------------------------------------ |
+| `edsa_recommender.py`                 | Base Streamlit application definition.                                                                                          |
+| `recommenders/collaborative_based.py` | Simple implementation of collaborative filtering.                                                                               |
+| `recommenders/content_based.py`       | Simple implementation of content-based filtering.                                                                               |
+| `resources/data/`                     | Sample movie and rating data used to demonstrate app functioning.<br>**NOTE: The dataset includes mostly movies from the 90s.** |
+| `resources/models/`                   | Folder to store model and data binaries if produced.                                                                            |
+| `utils/`                              | Folder to store additional helper functions for the Streamlit app.                                                              |
 
 ## Usage Instructions
 

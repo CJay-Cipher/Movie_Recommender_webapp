@@ -86,7 +86,8 @@ def main():
     
     # DO NOT REMOVE the 'Recommender System' option below, however,
     # you are welcome to add more options to enrich your app.
-    page_options = ["Recommender System","Solution Overview", "About Us", "FAQ"]
+    page_options = ["Recommender System","Solution Overview", "FAQ"]
+    # page_options = ["Recommender System","Solution Overview", "About Us", "FAQ"]
 
     # -------------------------------------------------------------------
     # ----------- !! THIS CODE MUST NOT BE ALTERED !! -------------------
@@ -136,17 +137,12 @@ def main():
 
         if sys == 'Collaborative Based Filtering':
             if st.button("Recommend"):
-                try:
-                    with st.spinner('Crunching the numbers...'):
-                        top_recommendations = collab_model(movie_list=fav_movies,
-                                                            top_n=13)
-                    st.title("We think you'll like:")
-                    clean_movie_titles(top_recommendations)
-                    # for i,j in enumerate(top_recommendations):
-                    #     st.subheader(str(i+1)+'. '+j)
-                except:
-                    st.error("Oops! Looks like this algorithm does't work.\
-                              We'll need to fix it!")
+                with st.spinner('Crunching the numbers...'):
+                    top_recommendations = collab_model(movie_list=fav_movies,
+                                                        top_n=13)
+                st.title("We think you'll like:")
+                clean_movie_titles(top_recommendations)
+                # for i,j in enumerate(top_recommendations):
 
 
     # -------------------------------------------------------------------
